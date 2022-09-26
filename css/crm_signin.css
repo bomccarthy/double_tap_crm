@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: "Araboto Normal";
     src: url("/fonts/Araboto\ Normal\ 400.ttf") format("truetype");
@@ -85,4 +86,93 @@ p {
 .btn {
     font-family: "Araboto Bold";
     font-size: 18px;
+=======
+@font-face {
+    font-family: "Araboto Normal";
+    src: url("/fonts/Araboto\ Normal\ 400.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Araboto Bold";
+    src: url("/fonts/Araboto\ Bold\ 400.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100;
+}
+
+html, body {
+    font-family: "Araboto Normal";
+    font-weight: 100;
+}
+
+h1 {
+    font-family: "Araboto Bold";
+    font-weight: 100;
+}
+
+p {
+    font-size: small;
+    font-weight: bold;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 40% 40%; 
+    grid-template-rows: 1fr; 
+    gap: 0px 20%;
+}
+
+.bg-image {
+    background-image: url("/images/CRM-SignIn/signin_bg-image.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 98vh;
+    height: 100vh;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #0314FE !important;
+}
+
+.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    border-color: black;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.input-icons i {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+.btn {
+    font-family: "Araboto Bold";
+    font-size: 18px;
+>>>>>>> 74193447d2e365f1c4ae2127acba3bab2fbcbc83
   }

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Araboto Normal";
+    src: url("/fonts/Araboto\ Normal\ 400.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Araboto Bold";
+    src: url("/fonts/Araboto\ Bold\ 400.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 100;
+}
+
+html, body {
+    font-family: "Araboto Normal";
+    font-weight: 100;
+}
+
+h1 {
+    font-family: "Araboto Bold";
+    font-weight: 100;
+}
+
+p {
+    font-size: small;
+    font-weight: bold;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 60% 60%; 
+    grid-template-rows: 1fr;    
+}
+
+.bg-image {
+    background-image: url("/images/CRM-SignUp/Group\ 10@2x.png");
+    background-position: 70%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    height: 100%;
+}
+
+.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    border-color: black;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.input-icons i {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+  
+.input-icons {
+    width: 90%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    font-family: "Araboto Bold";
+    font-size: 18px;
+  }
+
+.signupxx {
+    text-align: left;
+    padding-left: 90px;
+}
